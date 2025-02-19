@@ -58,3 +58,4 @@ def remover_pedido(id):
             del pedidos[i]
             break
 
+""" Feito por Bianca Ester, Maria Helen, Guilherme Antônio e Mikaelly Batista """
