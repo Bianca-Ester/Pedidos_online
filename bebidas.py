@@ -73,3 +73,5 @@ def menu_bebidas():
 
         except ValueError:
             controlador_fluxo_bebidas = False  
+
+""" Feito por Bianca Ester, Maria Helen, Guilherme Antônio e Mikaelly Batista """
