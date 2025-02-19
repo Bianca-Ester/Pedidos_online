@@ -58,7 +58,8 @@ def menu_sanduiches():
 
                     elif id == 0:
                         controlador_fluxo_listagem_produtos = False                  
-            
+
+""" Feito por Bianca Ester, Maria Helen, Guilherme Antônio e Mikaelly Batista """                
                 except ValueError:
                     controlador_fluxo_listagem_produtos = False  
 
