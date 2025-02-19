@@ -7,3 +7,5 @@ def apresenta_produtos(lista):
     limpar_terminal()
     for produto in lista:
         print(f"{produto['id']} | {produto['title']} - R$ {produto['price']:.2f}\n")
+
+""" Feito por Bianca Ester, Maria Helen, Guilherme Antônio e Mikaelly Batista """
