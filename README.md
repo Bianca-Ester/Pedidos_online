@@ -54,3 +54,5 @@ O sistema é dividido em dois menus principais:
   CRUD para manipulação de logins e pedidos.
   Funções para modularizar o código.
   Estruturas de repetição para navegação nos menus.
+
+  FEITO POR Bianca Ester, Maria Helen, Guilherme Antônio e Mikaelly Batista.
