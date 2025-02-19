@@ -59,3 +59,5 @@ def menu_inicial():
         else:
             print("Agradeço a visita! Volte sempre")
             controlador = False
+
+""" Feito por Bianca Ester, Maria Helen, Guilherme Antônio e Mikaelly Batista """
