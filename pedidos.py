@@ -50,12 +50,10 @@ def atualizar_pedido(id):
     for i, pedido in enumerate(pedidos):
         if pedido['cont'] == id:
             pedido['quantity'] = int(input("Digite a nova quantidade: "))
-            break
 
 def remover_pedido(id):
     for i, pedido in enumerate(pedidos):
         if pedido['cont'] == id:
             del pedidos[i]
-            break
 
 """ Feito por Bianca Ester, Maria Helen, Guilherme Antônio e Mikaelly Batista """
