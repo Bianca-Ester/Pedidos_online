@@ -110,6 +110,7 @@ def menu():
         menu()
     else:
         print("Opção inválida!")
+        limpar_terminal()
         menu()
 
 menu()
