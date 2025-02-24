@@ -26,8 +26,7 @@ def menu_inicial():
 
         if len(pedidos) > 0:
             print("4) Meus pedidos")
-        
-        print("5) Finalizar pedido")
+            print("5) Finalizar pedido")
 
         print("\n========================================")
         print("|PARA SAIR, DIGITE QUALQUER OUTRA TECLA|")
