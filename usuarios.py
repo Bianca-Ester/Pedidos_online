@@ -6,8 +6,8 @@ usuarios = []
 
 def login():
     print("-"*15)
-    usuario = input("Usuário: ")
-    senha = input("Senha: ")
+    usuario = str(input("Usuário: "))
+    senha = str(input("Senha: "))
 
     for user in usuarios:
         if user['usuario'] == usuario and user['senha'] == senha:
