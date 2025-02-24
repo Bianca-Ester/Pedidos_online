@@ -47,13 +47,21 @@ def menu_inicial():
             menu_sobremesas()
 
         elif op == "4":
-            limpar_terminal()
-            meus_pedidos()
+            if len(pedidos) > 0:
+                limpar_terminal()
+                meus_pedidos()
+            else:
+                print("Agradeço a visita! Volte sempre")
+                controlador = False
         
         elif op == "5":
-            sleep(1)
-            print("Agradeço a visita! Volte sempre")
-            exit()         
+            if len(pedidos) > 0:
+                sleep(1)
+                print("Agradeço a visita! Volte sempre")
+                exit()
+            else:
+                print("Agradeço a visita! Volte sempre")
+                controlador = False
 
         else:
             print("Agradeço a visita! Volte sempre")
