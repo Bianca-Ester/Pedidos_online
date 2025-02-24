@@ -57,11 +57,8 @@ def menu_inicial():
         elif op == "5":
             if len(pedidos) > 0:
                 sleep(1)
-                print("Agradeço a visita! Volte sempre")
-                exit()
-            else:
-                print("Agradeço a visita! Volte sempre")
-                controlador = False
+            print("Agradeço a visita! Volte sempre")
+            controlador = False
 
         else:
             print("Agradeço a visita! Volte sempre")
